@@ -6,8 +6,10 @@
     <title>Multi Search Engine Forms</title>
 </head>
 
-<header>Google Search Form</header>
-<h1>This form will search Google.</h1>
+<header>
+    <h1>Multi Search Engine Forms</h1>
+</header>
+<h2>This form searches Google</h2>
 
 <body>
 <form action="https://www.google.com/search" 
@@ -22,5 +24,27 @@ target="_blank">
 <button>Enter</button>
 </form>
 <link rel="stylesheet" href="styles.css">
+
+<h2>This form searches Bing</h2>
+
+<form action="https://www.bing.com/search" 
+method="get"
+target="_blank">
+<label for="name">Name</label>
+<input type="text" name="name" id="name">
+<label for="date">Birthdate</label>
+<input type="date" name="date" id="date">
+<button>Submit</button>
+
+<h2>This form searches Yahoo</h2>
+
+<form action="https://search.yahoo.com/search" method="get"></form>
+<label for="name">Name</label>
+<input type="text" name="name" id="name">
+<label for="interest">Interest</label>
+<input type="text" name="interest" id="interest">
+<button>Explore</button>
+
+</form>
 </body>
 </html>
